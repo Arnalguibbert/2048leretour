@@ -1,6 +1,7 @@
 from game2048.grid_2048 import *
 from math import *
 import random
+import os
 
 def grid_to_string(game_grid, n):
     k=" ===" * len(game_grid) + " "
