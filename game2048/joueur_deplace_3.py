@@ -12,4 +12,7 @@ def read_size_grid():
 
 def read_theme_grid():
     theme = str(input("Entrez le numero de theme choisi:"))
+    return theme
+
+
 

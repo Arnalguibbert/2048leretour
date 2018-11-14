@@ -1,5 +1,6 @@
 from math import *
 import random
+import os
 
 
 def create_grid(n):
