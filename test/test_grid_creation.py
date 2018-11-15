@@ -1,4 +1,4 @@
-from game2048.grid_2048 import *
+from game2048.grid_creation import *
 from pytest import *
 
 def test_create_grid():

@@ -80,3 +80,4 @@ def move_grid(game_grid,command):
         return move_grid_up(game_grid)
     elif command== "down":
         return move_grid_down(game_grid)
+

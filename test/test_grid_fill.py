@@ -1,4 +1,4 @@
-from game2048.grid_2048_2 import *
+from game2048.grid_fill import *
 from pytest import *
 
 
