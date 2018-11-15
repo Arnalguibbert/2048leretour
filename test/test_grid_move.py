@@ -1,4 +1,4 @@
-from game2048.fonctionnalite_4 import *
+from game2048.grid_move import *
 
 def test_move_row_left():
 

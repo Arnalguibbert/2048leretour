@@ -1,5 +1,4 @@
-from game2048.grid_2048 import *
-from math import *
+import game2048.grid_creation as grc
 import random
 import os
 
@@ -39,7 +38,7 @@ THEMES = {"0": {"name": "Default", 0: " ", 2: "2", 4: "4", 8: "8", 16: "16", 32:
 
 def grid_to_string_with_size_and_theme(game_grid,THEME,n):
     k=len(game_grid)
-    New_grid=create_grid(k)
+    New_grid=grc.create_grid(k)
     for i in range(0,k):
         for j in range(0,k):
             New_grid[i][j]=THEME[game_grid[i][j]]
@@ -47,7 +46,7 @@ def grid_to_string_with_size_and_theme(game_grid,THEME,n):
 
 def long_value_with_theme(game_grid,THEME):
     k=len(game_grid)
-    New_grid=create_grid(k)
+    New_grid=grc.create_grid(k)
     for i in range(0,k):
         for j in range(0,k):
             New_grid[i][j]=THEME[game_grid[i][j]]
